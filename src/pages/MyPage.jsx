@@ -12,7 +12,7 @@ import Footer from "../layouts/Footer";
 
 const MyPage = ({ API_BASE_URL }) => {
   const [response, setResponse] = useState({});
-  const [profileImage, setProfileImage] = useState(profile); // 기본 프로필 이미지를 profile.svg로 설정
+  const [profileImage, setProfileImage] = useState(profile);
   const fileInputRef = useRef(null);
   const navigate = useNavigate();
 
